@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Desaturator (by Nakilon)</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      #div {
+        height: 100%;
+        filter: saturate(0);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: black;
+      }
+    </style>
+    <script type="text/javascript">
+      document.addEventListener("DOMContentLoaded", function(event) {
+        document.getElementById("div").style.backgroundImage = "url(" + window.location.search.slice(1) + ")";
+      } );
+    </script>
+  </head>
+  <body>
+    <div id="div"></div>
+  </body>
+</html>
