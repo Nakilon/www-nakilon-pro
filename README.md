@@ -1,4 +1,4 @@
-![](https://github.com/nakilon/www-nakilon-pro/workflows/sync_with_gcs/badge.svg)
+![.github/workflows/sync_with_gcs.yaml](https://github.com/Nakilon/www-nakilon-pro/workflows/.github/workflows/sync_with_gcs.yaml/badge.svg)
 
 I now update my home page by pushing to the master branch of this repo.  
 The integration is made with Github Actions and Google Cloud Storage.  
