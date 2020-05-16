@@ -1,0 +1,11 @@
+on:
+  push:
+    branches: [master]
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: nakilon/git-to-gcs
+        with:
+          secrets: ${{ secrets.secrets }}
