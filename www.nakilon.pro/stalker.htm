@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <title>STALKER:ShoC maps of Cordon</title>
+    <style>
+      html, body { height: 100% }
+
+      img { height: 100% }
+      grid { color: #ccc }
+      grid > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      grid > div:nth-child(-n+4) {
+        font-weight: bold;
+        font-size: larger;
+        text-decoration: underline;
+      }
+
+      .JesterBox div {
+        position: fixed;
+        z-index: 75;
+        visibility: hidden;
+        top: 2%; right: 2%; bottom: 2%; left: 2%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .JesterBox div:before {
+        position: fixed;
+        z-index: 74;
+        content: "";
+        top: 0; right: 0; bottom: 0; left: 0;
+        background-color: rgba(0, 0, 0, 0);
+        transition: all 0.5s ease-out;
+      }
+      .JesterBox div img {
+        position: relative;
+        z-index: 77;
+        max-width: 100%;
+        max-height: 100%;
+        opacity: 0;
+        transition-property: all, opacity;
+        transition-duration: 0.5s, 0.2s;
+        transition-timing-function: ease-in-out, ease-out;
+      }
+      .JesterBox div:target        { visibility: visible                  }
+      .JesterBox div:target:before { background-color: rgba(0, 0, 0, 0.7) }
+      .JesterBox div:target img    { opacity: 1                           }
+    </style>
+  </head>
+  <body style="margin: 0; display: flex; flex-direction: column; font-family: Verdana, sans-serif; background-color: dimgray; color: white; text-align: center">
+    <h1>S.T.A.L.K.E.R.: Shadow of Chernobyl maps of Cordon</h1>
+    <div style="background-color: black; height: 0.5em"></div>
+    <a class="JesterBox" href="#">
+      <div id="1"><img src="http://heavy.www.nakilon.pro/stalker_v1/l01_escape_mutants_eng.png"/></div>
+      <div id="2"><img src="http://heavy.www.nakilon.pro/stalker_v1/l01_escape_mutants_rus.png"/></div>
+      <div id="3"><img src="http://heavy.www.nakilon.pro/stalker_v1/l01_escape_anomalies.png"/></div>
+      <div id="4"><img src="http://heavy.www.nakilon.pro/stalker_v1/l01_escape_npcs.png"/></div>
+      <div id="5"><img src="http://heavy.www.nakilon.pro/stalker_v1/l01_escape_artifacts_eng.png"/></div>
+      <div id="6"><img src="http://heavy.www.nakilon.pro/stalker_v1/l01_escape_artifacts_rus.png"/></div>
+    </a>
+    <div style="display: flex; height: 100%">
+      <grid style="display: grid; width: 100%; padding: 1em; grid-template-rows: auto 1fr 1fr; grid-template-columns: auto 1fr 1fr 1fr; row-gap: 0.5em; column-gap: 0.5em">
+        <div>DANGEROUS MUTANTS</div>
+        <div>DEADLY ANOMALIES</div>
+        <div>ANARCHISTS AND BANDITS</div>
+        <div>ARTIFACTS</div>
+        <a href="#1"><img src="http://heavy.www.nakilon.pro/stalker_v1/l01_escape_mutants_eng.png"/></a>
+        <a href="#3"><img src="http://heavy.www.nakilon.pro/stalker_v1/l01_escape_anomalies.png"/></a>
+        <div>my version of the game is Russian<br/>so I have only Russian names</div>
+        <a href="#5"><img src="http://heavy.www.nakilon.pro/stalker_v1/l01_escape_artifacts_eng.png"/></a>
+        <a href="#2"><img src="http://heavy.www.nakilon.pro/stalker_v1/l01_escape_mutants_rus.png"/></a>
+        <div>in fact there are no Russian names<br/>for anomalies in game files</div>
+        <a href="#4"><img src="http://heavy.www.nakilon.pro/stalker_v1/l01_escape_npcs.png"/></a>
+        <a href="#6"><img src="http://heavy.www.nakilon.pro/stalker_v1/l01_escape_artifacts_rus.png"/></a>
+      </div>
+    </div>
+  </body>
+</html>
