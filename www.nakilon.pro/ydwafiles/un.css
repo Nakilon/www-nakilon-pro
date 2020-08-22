@@ -1,0 +1,592 @@
+/*** uncss> filename: ydwafiles/c140d7eab934b942c24ca740a460c593.css ***/
+html, body, div, span, h1, h2, h3, h4, p, blockquote, a, img, small, strong, b, i, ul, li, form, label {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body { line-height: 1; }
+ul { list-style: none; }
+blockquote { quotes: none; }
+blockquote:before, blockquote:after { content: ''; content: none; }
+
+/* remember to define focus styles! */
+:focus { outline: 0; }
+
+/* remember to highlight inserts somehow! */
+
+/* tables still need 'cellspacing="0"' in the markup *//* -------------------------------------------------------------------
+// markItUp! Universal MarkUp Engine, JQuery plugin
+// By Jay Salvat - http: //markitup.jaysalvat.com/
+// ------------------------------------------------------------------*/
+
+
+/***************************************************************************************/
+/* first row of buttons */
+/* next rows of buttons */
+/* next rows of buttons */
+/* -------------------------------------------------------------------
+// markItUp!
+// By Jay Salvat - http://markitup.jaysalvat.com/
+// ------------------------------------------------------------------*/body {
+	font: normal 11px/18px Tahoma, Arial, Sans-Serif;
+	color: #333;
+	background: #f5f5f5;
+}
+
+h1, h2, h3, h4 { font: normal 18px Arial, Sans-Serif; line-height: 1.3em; margin-bottom: 0.3em; color: #333; }
+h1 { font-size: 22px; }
+h2 { font-size: 16px; font-weight: bold; }
+h3 { font-size: 18px; }
+
+a 			{ color: #2b587a; text-decoration: none; }
+a:hover 	{ text-decoration: underline; }
+
+
+
+
+
+
+
+/* Blocks
+-------------------- */
+#container 	{ width: 970px; padding: 0 10px; margin: 0 auto; }
+#header 	{ overflow: hidden; zoom: 1; position: relative; zoom: 1; padding: 20px 0 10px; }
+#nav 		{ height: 40px; overflow: hidden; zoom: 1; position: relative; zoom: 1; background: url(https://web.archive.org/web/20130909185816im_/http://kopateli.net/templates/skin/social-jquery/images/header.png) no-repeat; }
+#wrapper 	{ overflow: hidden; zoom: 1; background: #fff; }
+#content 	{ width: 635px; float: left; padding: 15px 5px 15px 15px; }
+#sidebar	{ width: 315px; float: left; }
+#footer 	{ overflow: hidden; zoom: 1; margin-bottom: 20px; padding: 5px 0 10px; color: #777; }
+
+
+/* Header
+-------------------- */
+#header .logo { width: 170px; height: 163px; display: block; background: url(https://web.archive.org/web/20130909185816im_/http://kopateli.net/templates/skin/social-jquery/images/logo.png) no-repeat; }
+
+#header .profile { position: absolute; bottom: 5px; right: 1px; overflow: hidden; zoom: 1; color: #777; text-align: right; text-transform: lowercase; }
+#header .profile li { float: left; font-weight: bold; padding-left: 20px; }
+#header .profile li a { color: #5F6691; text-decoration: none; }
+#header .profile li a:hover { text-decoration: underline; }
+
+
+
+
+/* Nav
+-------------------- */
+#nav .nav-main { float: left; overflow: hidden; zoom: 1; padding: 10px 0 12px 15px; text-transform: lowercase; }
+#nav .nav-main li { float: left; font-weight: bold; padding-right: 20px; }
+#nav .nav-main li a { color: #e8eff7; text-decoration: none; }
+#nav .nav-main li a:hover { color: #fff; text-decoration: underline; }
+#nav .nav-main li.active a { color: #93aac5; }
+
+/* Search */
+#nav .search-form { float: right; padding: 9px 15px 0 0; }
+#nav .search-form .search { width: 100px; margin: 0; border: 1px solid #2b587a; color: #777; font-size: 11px; padding: 3px 3px 3px 20px; background: #fff url(https://web.archive.org/web/20130909185816im_/http://kopateli.net/templates/skin/social-jquery/images/search.png) no-repeat 4px 4px; font-family: Tahoma, Arial, sans-serif; }
+
+
+
+
+/* Menu
+-------------------- */
+#menu { margin: 0 0 25px 0; }
+
+
+
+/* Footer
+-------------------- */
+#footer ul { float: left; overflow: hidden; zoom: 1; font-size: 11px; }
+#footer ul li { margin-bottom: 2px; float: left; margin-right: 10px; text-transform: lowercase; }
+
+#footer .right { float: right; text-align: right; }
+
+
+
+/* Settings
+-------------------- */
+
+
+
+/* User Profile
+-------------------- */
+
+/* Blog profile */
+
+/* User profile */
+
+/* User profile table */
+
+
+
+/* Misc blocks
+-------------------- */
+
+/* Talk */
+
+/* Blog profile */
+
+/* User profile */
+
+/* Stat */
+
+/* Userfeed */
+
+/* Stream */
+
+/* Userfields */
+
+/* Write */
+/* Voting */
+.voting { overflow: hidden; zoom: 1; }
+
+.voting .total { float: left; margin-left: 7px; font-weight: bold; color: #aaa; }
+
+.voting .plus,
+.voting .minus 			{ width: 9px; height: 9px; opacity: 0.5; filter: alpha(opacity=50); float: left; margin-left: 5px; display: block; background: url(https://web.archive.org/web/20130909185816im_/http://kopateli.net/templates/skin/social-jquery/images/voting.png) no-repeat; position: relative; top: 5px; outline: none; }
+.voting .plus 			{ background-position: 0 0; }
+.voting .minus 			{ background-position: -9px 0; }
+.voting .plus:hover 	{ opacity: 1; filter: alpha(opacity=100); }
+.voting .minus:hover 	{ opacity: 1; filter: alpha(opacity=100); }
+
+.voting.guest .plus:hover 	{ opacity: 0.5; filter: alpha(opacity=50); }
+.voting.guest .minus:hover 	{ opacity: 0.5; filter: alpha(opacity=50); }
+
+
+/* Favorite */
+
+
+/* Pagination */
+
+
+/* Switcher */
+.switcher { overflow: hidden; zoom: 1; margin-bottom: 15px; line-height: 19px; }
+.switcher li { float: left; padding: 1px 8px 3px; color: #ADA26D; background: #EFE6B9; border-top: 1px solid #CEC38E; }
+.switcher li a { float: left; color: #ADA26D; font-weight: bold; }
+
+
+/* System messages */
+
+
+/* Actions */
+.actions { overflow: hidden; zoom: 1; margin-bottom: 10px; }
+
+
+/* Table */
+
+/* Friend List */
+
+/* Misc */
+
+.right { float: right; }
+.input { padding: 4px; border: 1px solid #c0cad5; font: normal 11px Tahoma, Arial, sans-serif; }
+.input-wide { width: 96%; _width: 95%; padding: 4px; border: 1px solid #c0cad5; font: normal 11px Tahoma, Arial, sans-serif; }
+.checkbox { position: relative; top: 3px; margin: 0 5px 0 1px; }
+
+label { color: #444; }
+
+.submit {
+	padding: 3px 10px 4px;
+	font: normal 11px Tahoma, Arial, sans-serif;
+	cursor: pointer;
+	color: #fff;
+	background: #36638E;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 0;
+	margin-right: 2px;
+}
+.submit:hover { background: #7e9fc2; }
+
+form p { margin-bottom: 15px; }/* Login popup */
+.jqmWindow.login-form { width: 180px; text-align: center; }
+.jqmWindow.login-form h2 { margin-bottom: 15px; }
+.jqmWindow.login-form p { margin-bottom: 5px; }
+.jqmWindow.login-form label { color: #333; }
+.jqmWindow.login-form input { text-align: center; }
+.jqmWindow.login-form .close { position: absolute; top: 7px; right: 7px; width: 11px; height: 11px; outline: none; background: url(https://web.archive.org/web/20130909185816im_/http://kopateli.net/templates/skin/social-jquery/images/delete.png) no-repeat; }
+
+
+/* Blog delete popup */
+
+
+/* Add friend popup */
+
+
+/* Add userfield popup */
+.topic { overflow: hidden; zoom: 1; margin-bottom: 50px; }
+
+/* Title */
+.topic .title { overflow: hidden; zoom: 1; min-height: 39px; position: relative; padding: 4px 50px 4px 48px; background: #f7f7f7; border-top: 1px solid #45688e; border-bottom: 1px solid #dae1e8; font-size: 11px; margin-bottom: 10px; }
+.topic .title a.title-blog { font-size: 13px; font-weight: bold; color: #6691AF; }
+.topic .title h1.title-topic { display: inline; line-height: 18px; font-family: Tahoma, Arial, sans-serif; font-size: 13px; font-weight: bold; }
+.topic .title h1.title-topic a { font-size: 13px; font-weight: bold; }
+.topic .title img { position: relative; top: 1px; }
+.topic .title .voting { position: absolute; top: 3px; right: 9px; font-weight: bold; color: #43678e; }
+.topic .title .voting .minus { display: none; _display: block; }
+.topic .title .voting .plus { display: none; _display: block; }
+.topic .title:hover .voting .minus { display: block; }
+.topic .title:hover .voting .plus { display: block; }
+.topic .title .blog-avatar { position: absolute; top: 7px; left: 8px; width: 32px; height: 32px; }
+.topic .title .username { font-weight: bold; }
+
+/* Content */
+.topic .content { overflow: hidden; zoom: 1; margin-bottom: 15px; font-size: 12px; }
+.topic .content h4 { font-size: 20px; line-height: 26px; font-weight: bold; margin-bottom: 7px; }
+.topic .content a { text-decoration: underline; }
+.topic .content a:hover { text-decoration: none; }
+.topic .content blockquote { background: #fafafa; padding: 10px 15px; color: #555; clear: both; }
+
+/* Tags */
+.topic .tags { margin: 0 0 6px 1px; font-size: 10px; }
+.topic .tags li { display: inline; color: #888; }
+.topic .tags li a { color: #888; }
+
+/* Info */
+.topic .info { overflow: hidden; zoom: 1; font-size: 11px; line-height: 14px; padding: 4px 0 0 2px; border-top: 1px solid #DDDDDD; }
+.topic .info li { float: left; margin-right: 15px; }
+.topic .info li a { text-decoration: none; }
+.topic .info li a:hover { text-decoration: underline; }
+.topic .info li.actions { float: right; color: #aaa; margin-right: 5px; }
+
+/* Poll */
+
+/* Topic Photo *//* Update button */
+.update {
+	padding: 10px 10px 9px 10px;
+	float: right;
+	position: fixed; top: 220px; right: 8px;
+	text-align: center;
+	background: #FEFEFE;
+	_position: absolute;
+	_top: expression( eval(document.documentElement.scrollTop) + 220 +"px" );
+}
+.update .update-comments { width: 16px; height: 16px; cursor: pointer; background: url(https://web.archive.org/web/20130909185816im_/http://kopateli.net/templates/skin/social-jquery/images/update.gif) no-repeat; }
+.update .new-comments { color: #333; padding-top: 10px; cursor: pointer; }
+
+
+
+/* Comments */
+.comments { margin-bottom: 30px;  }
+.comments .comment-wrapper { overflow: hidden; zoom: 1; position: relative; }
+
+.comments-header { font-family: Tahoma, sans-serif; font-size: 11px; color: #333; padding-bottom: 3px; overflow: hidden; zoom: 1; }
+.comments-header .rss { margin-left: 20px; }
+
+.comment-preview { padding: 5px 10px; margin-top: 10px; margin-bottom: 5px; background: #fafafa; overflow: hidden; zoom: 1; font-size: 11px; }
+
+
+/* Comment */
+.comment { min-height: 47px; _height: 47px; font-size: 11px; position: relative; zoom: 1; padding: 6px 0 11px 62px; background: #fff; border-top: 1px solid #eee; }
+.comment .avatar { padding-top: 0; position: absolute; zoom: 1; top: 9px; left: 5px; }
+.comment .goto-comment-child { display: none; }
+
+/* Bad */
+
+/* Comment Highlights */
+.comment 						{ background: #fff; }
+
+/* Info Block */
+.comment .info { overflow: hidden; zoom: 1; font-size: 11px; margin-bottom: 2px; }
+.comment .info li { float: left; margin-right: 10px; }
+.comment .info li.avatar { padding-top: 0; }
+.comment .info li.avatar img { vertical-align: top; }
+.comment .info li a { text-decoration: none; }
+
+.comment .voting .plus,
+.comment .voting .minus { visibility: hidden; _visibility: visible; }
+.comment:hover .voting * { visibility: visible !important; }
+
+/* Content */
+.comment .content { color: #000; padding-right: 20px; line-height: 15px; overflow: hidden; zoom: 1; }
+
+
+/* Actions */
+
+/* Comment List */
+
+/* Reply Form */
+.reply-header { font-size: 11px; font-weight: bold; font-family: Tahoma, sans-serif; color: #36638E; }
+.reply-header a { border-bottom: 1px dotted #2B587A; }
+.reply-header a:hover { text-decoration: none; color: #333; border-color: #333; }
+
+.reply { padding-bottom: 10px; margin-top: 10px; }
+.reply textarea { height: 80px; border: 1px solid #ccc; margin: 0; padding: 1px 3px; font-family: Tahoma, sans-serif; font-size: 11px; line-height: 15px; }.block { padding: 15px; margin-bottom: 15px; }
+
+.block .bottom { padding-top: 3px; font-size: 10px; text-align: right; }
+.block .inner { padding: 8px 8px; background: #fafafa; }
+
+.block .block-header { overflow: hidden; zoom: 1; line-height: 19px; height: 23px; font-size: 11px; padding: 0 0 0 7px; border-top: 1px solid #B1BDD6; background: #dae2e8; }
+.block .block-header strong { color: #45688E; position: relative; top: 1px; float: left; }
+
+.block .switcher-block { overflow: hidden; zoom: 1; background: #EBF0F4; }
+.block .switcher-block li { float: left; padding: 2px 7px 3px; margin: 0; font-weight: bold; color: #9DB6C9; cursor: pointer; }
+.block .switcher-block li.active { background: #B3C9D8; color: #fff; }
+
+/* Stream */
+.block.stream ul.list { font-size: 11px; line-height: 14px; _overflow: hidden; zoom: 1; }
+.block.stream ul.list li { min-height: 48px; _height: 48px; position: relative; zoom: 1; padding: 8px 0 9px 57px; color: #808080; border-bottom: 1px solid #eee; }
+
+/* Top Blogs */
+.block.blogs ul.list { font-size: 11px; line-height: 14px; overflow: hidden; zoom: 1; }
+.block.blogs ul.list li { padding: 5px 7px 6px 8px; border-bottom: 1px solid #eee; }
+.block.blogs ul.list li a { text-decoration: none; }
+.block.blogs ul.list li .rating { float: right; font-weight: bold; }
+
+/* Tags */
+.block .cloud { padding: 5px 8px; background: #fafafa; }
+.block .cloud li { display: inline; margin-right: 5px; line-height: 18px; }
+.block .cloud li a { white-space: nowrap; }
+.block .cloud li a.w1 { font-size: 11px; }
+
+/* Profile */
+
+/* Friends */
+
+/* Blogs */
+
+/* Stream Settings *//* jqModal base Styling courtesy of;
+	Brice Burgess <bhb@iceburg.net> */
+
+/* The Window's CSS z-index value is respected (takes priority). If none is supplied,
+	the Window's z-index value will be set to 3000 by default (via jqModal.js). */
+
+.jqmWindow {
+    display: none;
+
+    position: fixed;
+    top: 25%;
+    left: 50%;
+
+    margin-left: -150px;
+    width: 300px;
+
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #666;
+    padding: 15px;
+}
+
+/* Background iframe styling for IE6. Prevents ActiveX bleed-through (<select> form elements, etc.) */
+
+/* Fixed posistioning emulation for IE6
+     Star selector used to hide definition from browsers other than IE6
+     For valid CSS, use a conditional include instead *//*
+ * jQuery UI CSS Framework 1.8.14
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Theming/API
+ */
+
+/* Layout helpers
+----------------------------------*/
+/* required comment for clearfix to work in Opera \*/
+/* end clearfix */
+
+
+/* Interaction Cues
+----------------------------------*/
+
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Overlays */
+
+
+/*
+ * jQuery UI CSS Framework 1.8.14
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Theming/API
+ *
+ * To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Verdana,Arial,sans-serif&fwDefault=normal&fsDefault=1.1em&cornerRadius=4px&bgColorHeader=cccccc&bgTextureHeader=03_highlight_soft.png&bgImgOpacityHeader=75&borderColorHeader=aaaaaa&fcHeader=222222&iconColorHeader=222222&bgColorContent=ffffff&bgTextureContent=01_flat.png&bgImgOpacityContent=75&borderColorContent=aaaaaa&fcContent=222222&iconColorContent=222222&bgColorDefault=e6e6e6&bgTextureDefault=02_glass.png&bgImgOpacityDefault=75&borderColorDefault=d3d3d3&fcDefault=555555&iconColorDefault=888888&bgColorHover=dadada&bgTextureHover=02_glass.png&bgImgOpacityHover=75&borderColorHover=999999&fcHover=212121&iconColorHover=454545&bgColorActive=ffffff&bgTextureActive=02_glass.png&bgImgOpacityActive=65&borderColorActive=aaaaaa&fcActive=212121&iconColorActive=454545&bgColorHighlight=fbf9ee&bgTextureHighlight=02_glass.png&bgImgOpacityHighlight=55&borderColorHighlight=fcefa1&fcHighlight=363636&iconColorHighlight=2e83ff&bgColorError=fef1ec&bgTextureError=02_glass.png&bgImgOpacityError=95&borderColorError=cd0a0a&fcError=cd0a0a&iconColorError=cd0a0a&bgColorOverlay=aaaaaa&bgTextureOverlay=01_flat.png&bgImgOpacityOverlay=0&opacityOverlay=30&bgColorShadow=aaaaaa&bgTextureShadow=01_flat.png&bgImgOpacityShadow=0&opacityShadow=30&thicknessShadow=8px&offsetTopShadow=-8px&offsetLeftShadow=-8px&cornerRadiusShadow=8px
+ */
+
+
+/* Component containers
+----------------------------------*/
+
+/* Interaction states
+----------------------------------*/
+
+/* Interaction Cues
+----------------------------------*/
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+
+/* positioning */
+/* ui-icon-seek-first is deprecated, use ui-icon-seek-start instead */
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Corner radius */
+
+/* Overlays *//*
+ * jQuery UI Autocomplete 1.8.14
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Autocomplete#theming
+ */
+
+/* workarounds */ /* without this, the menu expands to 100% in IE6 */
+
+/*
+ * jQuery UI Menu 1.8.14
+ *
+ * Copyright 2010, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Menu#theming
+ */
+/*
+ * jQuery UI Datepicker 1.8.14
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Datepicker#theming
+ */
+
+/* with multiple calendars */
+
+/* RTL support */
+
+/* IE6 IFRAME FIX (taken from datepicker 1.5.3 */a { color: #1a7499; }
+
+#header .logo { background-image: url(https://web.archive.org/web/20130909185816im_/http://kopateli.net/templates/skin/social-jquery/themes/neutral/images/logo.png); }
+
+#nav { background: #444; }
+#nav ul li a { color: #aaa !important; }
+#nav ul li.active a { color: #fff !important; }
+#header .profile li a { color: #aaa !important; }
+#header .profile { background: none; }
+#nav .search-form .search { border: none; }
+
+.topic .title { border: none; background: #f5f5f5; }
+.topic .title a.title-blog { color: #aaa; }
+
+.block .block-header { background: #e5e5e5; border: none; padding-top: 1px; }
+.block .block-header strong { color: #888; }
+.block .switcher-block li { color: #aaa; }
+.block .switcher-block li.active { background: #666; }
+
+.block .switcher-block { background: #f7f7f7; }
+.block .switcher-block li { color: #aaa; }
+.block .switcher-block li.active { background: #ccc;	 }
+.block .switcher-block li.active { color: #fff; }
+.switcher li { background: #eee; color: #999; border: none; }
+.switcher li a { background: none; color: #777; }
+
+.submit { background: #777; }
+.submit:hover { background: #888; }
+
+
+/*
+	Fancy Uploader
+*/
+
+
+/* Album
+------------------------------------------------- */
+/*----------------------------------------
+    * Pseudo-Classes
+----------------------------------------*/
+/*----------------------------------------
+    * Reset
+----------------------------------------*/
+/*----------------------------------------
+    * Notes
+----------------------------------------*/
+/*----------------------------------------
+    * Loading
+----------------------------------------*/
+/*----------------------------------------
+    * Notes Formular
+----------------------------------------*/
+/*----------------------------------------
+    * Controller
+----------------------------------------*//*----------------------------------------
+    * IE-Fix
+----------------------------------------*/
+/*---------------------------------------------------------
+*
+*	Plugin Microblogs ( http://micro.lsmods.ru )
+*	Author: Vladimir Yuriev ( extravert )
+*	Contact e-mail: support@lsmods.ru
+*	Site: http://lsmods.ru
+*
+*/
+
+/* Micro Form
+------------------------------------------------- */
+
+
+/* Micro
+------------------------------------------------- */
+
+
+/* Micro Sub Comments
+------------------------------------------------- */
+
+
+/* More
+------------------------------------------------- */
+
+
+/* Block
+------------------------------------------------- */
+
+
+
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 18:58:16 Sep 09, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:47:40 Aug 22, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  CDXLines.iter: 18.911 (3)
+  PetaboxLoader3.resolve: 23.198
+  exclusion.robots.policy: 0.2
+  LoadShardBlock: 199.206 (3)
+  RedisCDXSource: 29.803
+  exclusion.robots: 0.214
+  captures_list: 253.244
+  PetaboxLoader3.datanode: 247.676 (4)
+  esindex: 0.016
+  load_resource: 116.355
+*/
+
