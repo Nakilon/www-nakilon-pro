@@ -17,22 +17,31 @@
                 const result = innertexts.
                   map(i => json.categories[i].members).
                   reduce((a, b) => a.filter(i => b.includes(i)));
-                document.getElementById("results").innerHTML = `${innertexts} => ${result.length} items:<br><br>`;
+                document.getElementById("results").innerHTML = `[${innertexts}] => ${result.length == 0 ? "no" : result.length} item${result.length == 1 ? "" : "s"}:<br><br>`;
                 result.forEach( function(member){
-                    const a = document.createElement("a");
-                    a.href = json.members[member];
-                    a.append(member);
-                    document.getElementById("results").appendChild(a);
-                    document.getElementById("results").appendChild(document.createElement("br"));
-                  } );
+                  const a = document.createElement("a");
+                  a.href = json.members[member];
+                  a.append(member);
+                  const span = document.createElement("span");
+                  span.style.color = "gray";
+                  span.append(` ${
+                    Object.entries(json.categories).
+                      filter(([name, category]) => !innertexts.includes(name) && category.members.includes(member)).
+                      map(([name, category]) => name)
+                  }`);
+                  const div = document.createElement("div");
+                  div.appendChild(a);
+                  div.appendChild(span);
+                  document.getElementById("results").appendChild(div);
+                } );
               };
               div.appendChild(input);
-              const label = document.createElement("label");
               const a = document.createElement("a");
               a.href = category.url;
               a.append(name);
+              const label = document.createElement("label");
               label.appendChild(a);
-              label.append(` (${category.members.length} item${category.members.length > 1 ? "s" : ""})`);
+              label.append(` (${category.members.length == 0 ? "no" : category.members.length} item${category.members.length == 1 ? "" : "s"})`);
               div.appendChild(label);
               document.getElementById("checkboxes").appendChild(div);
             };
