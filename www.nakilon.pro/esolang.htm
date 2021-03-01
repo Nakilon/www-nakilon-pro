@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Esolang categories intersector</title>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109200828-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag("js", new Date());
+      gtag("config", "UA-109200828-1");
+    </script>
+
     <script>
       window.addEventListener("load", function() {
         fetch("http://heavy.www.nakilon.pro/esolangcategories.json")
           .then(response => response.json())
           .then(json => {
+            document.getElementById("updated").innerText = json.timestamp;
             for (const [name, category] of Object.entries(json.categories)) {
               const div = document.createElement("div");
               const input = document.createElement("input");
@@ -50,7 +61,15 @@
     </script>
   </head>
   <body style="font-family: monospace">
-    <div id="checkboxes" style="float:left"></div>
+    <center><h1>Esolang categories intersector</h1></center>
+    <div style="float:left">
+      <div id="checkboxes"></div>
+      <p style="font-size: smaller">
+        updated: <span id="updated"></span>
+        <br>web page source code: <a href="https://github.com/Nakilon/www-nakilon-pro/blob/master/www.nakilon.pro/esolang.htm">github.com/Nakilon/www-nakilon-pro/esolang.htm</a>
+        <br>scraper source code: <a href="https://gist.github.com/Nakilon/c51cffd86044fc569085dc3580dd4fd9">gist</a>
+      </p>
+    </div>
     <div id="results"></div>
-   </body>
+  </body>
 </html>
