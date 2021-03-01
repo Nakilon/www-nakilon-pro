@@ -25,10 +25,12 @@
                 const innertexts = Array.from(document.getElementsByTagName("input")).
                   filter(i => i.checked).
                   map(i => i.parentNode.querySelector("a").innerText);
+                if (innertexts.length == 0)
+                  return document.getElementById("results").innerHTML = "no categories selected";
                 const result = innertexts.
                   map(i => json.categories[i].members).
                   reduce((a, b) => a.filter(i => b.includes(i)));
-                document.getElementById("results").innerHTML = `[${innertexts}] => ${result.length == 0 ? "no" : result.length} item${result.length == 1 ? "" : "s"}:<br><br>`;
+                document.getElementById("results").innerHTML = `[${innertexts}] => ${result.length == 0 ? "no" : result.length} item${result.length == 1 ? "" : "s"}${result.length == 0 ? "" : ":"}<br><br>`;
                 result.forEach( function(member){
                   const a = document.createElement("a");
                   a.href = json.members[member];
