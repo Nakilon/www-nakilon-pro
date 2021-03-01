@@ -3,7 +3,7 @@
   <head>
     <script>
       window.addEventListener("load", function() {
-        fetch("http://heavy.www.nakilon.pro/esolangcategories.json", {mode: "no-cors"})
+        fetch("http://heavy.www.nakilon.pro/esolangcategories.json")
           .then(response => response.json())
           .then(json => {
             for (const [name, category] of Object.entries(json.categories)) {
