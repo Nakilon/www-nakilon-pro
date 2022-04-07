@@ -1,0 +1,20 @@
+on:
+  push:
+    branches: [master]
+jobs:
+  # sync_gcs:
+  #   if: ${{ false }}
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #     - uses: nakilon/git-to-gcs@1
+  #       with:
+  #         secrets: ${{ secrets.secrets }}
+  sync_yos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: nakilon/git-to-os@main
+        with:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
