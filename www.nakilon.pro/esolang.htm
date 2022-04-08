@@ -14,7 +14,7 @@
     <script>
       // change to 'fetch("./esolangcategories.json")' for local testing
       window.addEventListener("load", function() {
-        fetch("http://storage.googleapis.com/esolang.www.nakilon.pro/esolangcategories.json")
+        fetch("http://storage.yandexcloud.net/unversioned.www.nakilon.pro/esolangcategories.json")
           .then(response => response.json())
           .then(json => {
             document.getElementById("updated").innerText = json.timestamp;
